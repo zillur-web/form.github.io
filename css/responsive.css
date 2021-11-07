@@ -1,0 +1,46 @@
+
+@media (min-width: 768px) {
+  .navbar-expand-md .navbar-nav .nav-link {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    background: #4c3e3e24;
+    margin: 1px;
+    border-radius: 2px;
+    transition: 0.3s;
+  }
+  .navbar-expand-md .navbar-nav .nav-link:hover {
+    background: #2827272e;
+  }
+}
+@media (max-width: 767px) {
+  .header header {
+    font-size: 28px;
+  }
+  .sub-header header{
+    padding-top: 12px;
+    font-size: 22px;
+  }
+}
+@media (max-width: 400px) {
+  .header header {
+    font-size: 24px;
+  } 
+  .sub-header header{
+    font-size: 18px;
+  }
+}
+@media (max-width: 435px) {
+  .btn{
+    font-size: 14px ;
+  }
+  .myInput{
+    padding: 7px;
+    padding-left: 16px;
+  }
+}
+@media (max-width:397px) {
+  .btn{
+    font-size: 10px;
+    padding: 8px;
+  }
+}
